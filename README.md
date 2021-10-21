@@ -1,10 +1,12 @@
 # diveTours
 A simple website, part of a school project
 
-This is a schoolproject, not  commercial project 
+This is a schoolproject, not a commercial project 
 
-
---- 
+---
+All images by Patrik Falk
+---
+ 
 
 ### TODO
 - [x] Set up CSS and HTML skeleton
