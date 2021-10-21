@@ -53,6 +53,7 @@
 
 /*Borders*/
 --border-xs-white: .1rem solid var(--color-white);
+--border-xs-primary: .1rem solid var(--color-primary);
 --border-xs: .1rem solid var(--color-light);
 --border-sm: .2rem solid var(--color-light);
 --border-lg: .4rem solid var(--color-white);
