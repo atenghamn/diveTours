@@ -119,6 +119,7 @@
 .border-radius {border-radius: var(--border-radius-sm);}
 .border-square {border-radius: 0; border-width: var(--distance-1); border-color: var(--color-light);}
 
+.border-small-dark{ border: var(--border-xs-dark)}
 .border-small-white{ border: var(--border-xs-white);}
 .border-small-primary{ border: var(--border-xs-primary);}
 .border-bottom-xs{ border-bottom: var(--border-xs);}
@@ -143,6 +144,8 @@
 .logo-small-width{ max-width: 10rem;}
 .header-image-height { max-height: 150rem;}
 .header-image-width { max-width: 192rem;}
+.destination-cards{ max-width: 30rem;}
+
 
 
 /*********************************
@@ -165,6 +168,10 @@
     left: -40px;
     padding: 11px;
     border-color: transparent;
+}
+.star-icons{
+  left: 53%;
+  top: 168%;
 }
 
 .hoverable{cursor: pointer;}

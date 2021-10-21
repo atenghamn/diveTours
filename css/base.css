@@ -53,6 +53,7 @@
 --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
 
 /*Borders*/
+--border-xs-dark: .1rem solid var(--color-dark);
 --border-xs-white: .1rem solid var(--color-white);
 --border-xs-primary: .1rem solid var(--color-primary);
 --border-xs: .1rem solid var(--color-light);
