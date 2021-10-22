@@ -12,6 +12,7 @@
 --color-transparent: transparent;
 --color-border: #dee2e6;
 --color-dark-transparent: rgba(0, 0, 0, 0.2);
+--color-primary-transparent:#d38833a2;
 
 /*Display*/
 --display-xxs: 1rem;
@@ -110,6 +111,7 @@ body {
 .bg-white, .btn-white{ background-color: var(--color-white);}
 .bg-transparent {background-color: var(--color-transparent);}
 .bg-dark-transparent {background-color: var(--color-dark-transparent);}
+.bg-primary-transparent {background-color: var(--color-primary-transparent);}
 
 /*Text Colors*/
 .text-primary{ color:var(--color-primary);}

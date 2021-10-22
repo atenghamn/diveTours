@@ -147,6 +147,14 @@
 .destination-cards{ max-width: 35rem;}
 .destination-image{ max-width: 35rem; min-width: 35rem; max-height: 20rem; }
 
+.statistics-image{
+  background-image: url("../images/dyk-12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
 
 
 /*********************************
