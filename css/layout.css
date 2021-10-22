@@ -144,7 +144,8 @@
 .logo-small-width{ max-width: 10rem;}
 .header-image-height { max-height: 150rem;}
 .header-image-width { max-width: 192rem;}
-.destination-cards{ max-width: 30rem;}
+.destination-cards{ max-width: 35rem;}
+.destination-image{ max-width: 35rem; min-width: 35rem; max-height: 20rem; }
 
 
 
@@ -170,8 +171,21 @@
     border-color: transparent;
 }
 .star-icons{
-  left: 53%;
-  top: 168%;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+
+}
+
+.fifty-percent {
+  top:0;
+  margin-top:.5rem;
+  margin-left:.5rem;
+  font-weight: bold;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
 }
 
 .hoverable{cursor: pointer;}
