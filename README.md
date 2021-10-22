@@ -15,6 +15,6 @@ All images by Patrik Falk
 - [x] Create guide row
 - [x] Create destination section
 - [x] Create statistics section
-- [ ] Create locations section
-- [ ] Create footer
+- [x] Create locations section
+- [x] Create footer
 - [ ] Make it responsive for smaller screens
