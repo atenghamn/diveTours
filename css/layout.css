@@ -146,6 +146,7 @@
 .header-image-width { max-width: 192rem;}
 .destination-cards{ max-width: 35rem;}
 .destination-image{ max-width: 35rem; min-width: 35rem; max-height: 20rem; }
+.dive-image{ width: 35rem; }
 
 .statistics-image{
   background-image: url("../images/dyk-12.jpg");

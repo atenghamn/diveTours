@@ -10,10 +10,11 @@ All images by Patrik Falk
 
 ### TODO
 - [x] Set up CSS and HTML skeleton
-- [ ] Get imageassist
-- [ ] Create topnav
-- [ ] Create guide row
-- [ ] Create destination section
-- [ ] Create statistics section
+- [x] Get imageassist
+- [x] Create topnav
+- [x] Create guide row
+- [x] Create destination section
+- [x] Create statistics section
 - [ ] Create locations section
 - [ ] Create footer
+- [ ] Make it responsive for smaller screens
