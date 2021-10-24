@@ -1,0 +1,6 @@
+/*****************************************
+**********1450px**************************
+*****************************************/
+@media screen and (max-width: 90.625rem){
+    .footer-elements{ display: flex; flex-direction: column;}
+}

@@ -1,4 +1,4 @@
-******************************
+/*******************************
 ********* Width ***************
 ******************************/
 .max-width { max-width: 192rem; }
@@ -46,7 +46,7 @@
 .mr-0, .mx-0{ margin-right: var(--distance-0); }
 .ml-0, .mx-0{ margin-left: var(--distance-0); }
 .mr-2, .mx-2{ margin-right: var(--distance-2);}
-.ml-2, .mx-2{ margin-left: var(---distance-2);}
+.ml-2, .mx-2{ margin-left: var(--distance-2);}
 .mr-3, .mx-3{ margin-right: var(--distance-3) ;}
 .ml-3, .mx-3{ margin-left: var(--distance-3); }
 .mr-4, .mx-4{ margin-right: var(--distance-4);}
@@ -66,7 +66,7 @@
 ******************************/
 .position-relative{ position: relative !important;}
 .position-absolute{ position: absolute !important;}
-.centerXY {top: 50%; left: 50; transform: translate(-50%, -50%);}
+.centerXY {top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
 
 /******************************
