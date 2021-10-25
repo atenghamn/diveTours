@@ -157,58 +157,10 @@
 
 }
 
-.gallery-image-1{
-  background-image: url("../images/dyk-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 8rem;
+.gallery-image{
   height: 8rem;
-}
-
-.gallery-image-2{
-  background-image: url("../images/dyk-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   width: 8rem;
-  height: 8rem;
-}
-
-.gallery-image-3{
-  background-image: url("../images/dyk-3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 8rem;
-  height: 8rem;
-}
-
-.gallery-image-4{
-  background-image: url("../images/dyk-4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 8rem;
-  height: 8rem;
-}
-
-.gallery-image-5{
-  background-image: url("../images/dyk-5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 8rem;
-  height: 8rem;
-}
-
-.gallery-image-6{
-  background-image: url("../images/dyk-6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 8rem;
-  height: 8rem;
+  padding: 1rem;
 }
 
 /*********************************
@@ -319,5 +271,5 @@
   .footer-chapter{
     width: 20%;
     padding: 4rem;
-    height: 40rem;
+
     }

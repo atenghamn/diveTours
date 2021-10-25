@@ -2,5 +2,27 @@
 **********1450px**************************
 *****************************************/
 @media screen and (max-width: 90.625rem){
-    .footer-elements{ display: flex; flex-direction: column;}
+    .footer-elements{ 
+        display: flex; 
+        flex-direction: column;}
+}
+
+.footer-chapter{
+    width: 80%;
+}
+
+
+/*****************************************
+**********1100px**************************
+*****************************************/
+@media screen and (max-width: 68.75rem){
+    .footer-chapter{
+        width: 80%;
+    }
+   
+    .footer-text{ 
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between!important;    
+    }
 }
