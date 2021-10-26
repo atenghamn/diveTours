@@ -229,9 +229,11 @@
 
 .hoverable{cursor: pointer;}
 
+.nav-click{ cursor: pointer;}
+.nav-click:hover{color: var(--color-primary);}
 
-.menu{cursor: pointer;}
-.menu:hover{ background-color: var(--color-primary-light); }
+.click{cursor: pointer;}
+.click:hover{ background-color: var(--color-primary); color: white; border: transparent; }
 
 .icon-container i:nth-child(2) { display: none; }
 
