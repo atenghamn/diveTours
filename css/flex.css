@@ -20,6 +20,11 @@
     flex-direction: row;
 }
 
+.flex-row-non-shrink{
+    flex-direction: row !important;
+    width: 140%;
+}
+
 .flex-row-reverse {
     flex-direction: row-reverse;
 }

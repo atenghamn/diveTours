@@ -42,6 +42,10 @@
   .f-width {max-width: 100% !important;}
   .flex-sm-column{ flex-direction: column;}
   .sm-menu{  margin-left: 20%; margin-top: 2%;}
+  .sm-move-down{ margin-top: 200px; }
+  .shrink-text { font-size: 75%; background-color: none;}
+  .remove-background{background-color: transparent;}
+
 }
 
 
@@ -98,5 +102,7 @@
     h1{
         font-size: 2rem;
     }
+
+    .d-sm-none-2{ display: none !important;}
 
   }
