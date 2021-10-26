@@ -24,43 +24,73 @@
         <figure class="d-flex position-relative slider-width slider-animation">
             <div class="slider-container position-relative">
                 <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-6 lh-xl heading-xxs-width">
-                    <div class="d-flex">
+                    <div class="d-flex d-sm-none">
                         <h1 class="text-white text-uppercase">Meet the</h1>
                         <h1 class="text-primary text-uppercase ml-3 ">underworld</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <img class="slider-image" src="images/dyk-10.jpg" alt="Diveimage">
             </div>
             <div class="slider-container position-relative">
                 <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-6 lh-xl heading-xxs-width">
-                    <div class="d-flex">
+                    <div class="d-flex d-sm-none">
                         <h1 class="text-white text-uppercase">An unforgetable</h1>
                         <h1 class="text-primary text-uppercase ml-3 ">adventure</h1>  
                     </div>                  
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <img class="slider-image" src="images/dyk-11.jpg" alt="Diveimage">
             </div>
             <div class="slider-container position-relative">
                 <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-6 lh-xl heading-xxs-width">
-                    <div class="d-flex">
+                    <div class="d-flex d-sm-none">
                         <h1 class="text-white text-uppercase">Always </h1>
                         <h1 class="text-primary text-uppercase ml-3 ">down</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <img class="slider-image" src="images/dyk-12.jpg" alt="Diveimage">
             </div>
             <div class="slider-container position-relative">
                 <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-6 lh-xl heading-xxs-width">
-                    <div class="d-flex">
+                    <div class="d-flex d-sm-none">
                         <h1 class="text-white text-uppercase">Dive with</h1>
                         <h1 class="text-primary text-uppercase ml-3 ">us</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="d-sm-none">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <img class="slider-image" src="images/dyk-13.jpg" alt="Diveimage">
+            </div>
+        
+             <!-- Drop Down Navigation For Small Devices-->
+             <div class="d-none d-sm-block position-absolute sm-menu xs-sml-menu">
+                <div class="d-flex flex-row-reverse ">
+                  <!-- Shopping basket -->
+                <div class="d-flex justify-content-between mr-6">
+                    <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                        <div class="d-flex align-items-center justify-content-between bg-cozy p-4 shadow-sm border-radius">
+                            <i class="fa fa-shopping-basket text-white border-small-primary p-3 click"></i>
+                        </div>
+                        <span class="circle bg-primary text-white text-size-xxs position-absolute icon-badge">3</span>
+                    </a>
+                </div>
+
+                <!-- Bars -->
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
+                        <div class="d-flex align-items-center justify-content-between bg-cozy p-4 shadow-sm border-radius">
+                            <i class="fa fa-bars text-white border-small-primary p-3 click"></i>
+                        </div>
+                    </a>
+                </div>
+                 
+                </div>
+
+                <a href="#" class="d-flex text-decoration-none p-6 border-bottom-xs text-white mr-8 xs-sml-shrink">Home</a>
+                <a href="#" class="d-flex text-decoration-none p-6 border-bottom-xs text-white mr-8 xs-sml-shrink">Tours</a>
+                <a href="#" class="d-flex text-decoration-none p-6 border-bottom-xs text-white mr-8 xs-sml-shrink">Hotels</a>
+                <a href="#" class="d-flex text-decoration-none p-6 text-white mr-8 xs-sml-shrink">L.As</a>      
             </div>
         </figure>
     </section>
@@ -75,7 +105,7 @@
             </div>
 
             <!-- Middle menu -->
-            <div class="d-flex justify-content-center sml-screen-links">
+            <div class="d-flex justify-content-center sml-screen-links d-sm-none">
 
                 <div class="mr-8">
                     <a class="text-white text-uppercase text-size-lg nav-click">Home</a>
@@ -100,7 +130,7 @@
 
        
          <!-- Shopping basket -->
-        <div class="d-flex justify-content-between mr-8 sml-screen-basket">
+        <div class="d-flex justify-content-between mr-8 sml-screen-basket d-sm-none">
             <a href="#" class="d-flex flex-column align-items-center text-decoration-none position-relative">
                 <div class="d-flex align-items-center justify-content-between bg-cozy p-4 shadow-sm border-radius">
                     <i class="fa fa-shopping-basket text-white border-small-primary p-3 click"></i>
@@ -108,9 +138,8 @@
                 <span class="circle bg-primary text-white text-size-xxs position-absolute icon-badge">3</span>
             </a>
         </div>
-            
+              
         </nav>
-
     
     </header>
       <!-- Meet our Guides -->

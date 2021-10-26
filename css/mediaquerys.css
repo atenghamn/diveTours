@@ -37,11 +37,11 @@
       flex-direction: column;
   }
 
-  .sml-screen-basket{
-      
-        display: flex;
-        
-  }
+  .d-sm-none{ display: none !important;}
+  .d-sm-block{ display: block !important;}
+  .f-width {max-width: 100% !important;}
+  .flex-sm-column{ flex-direction: column;}
+  .sm-menu{  margin-left: 20%; margin-top: 2%;}
 }
 
 
@@ -79,6 +79,9 @@
         font-size: var(--display-xxs);
     }
 
+    .xs-sml-menu{margin-left: 18%;  margin-top: 1%;}
+
+    .xs-sml-shrink{ line-height: var(--distance-2); }
 
   }
 
