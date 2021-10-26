@@ -17,4 +17,6 @@ All images by Patrik Falk
 - [x] Create statistics section
 - [x] Create locations section
 - [x] Create footer
+- [x] Make a slideshow
+- [ ] Make everything clickabel/hoberable
 - [ ] Make it responsive for smaller screens
